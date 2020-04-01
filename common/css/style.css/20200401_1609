@@ -1,0 +1,371 @@
+html, body{
+	overflow:auto;
+	background-color : #F0E4E6;
+}
+
+.container{
+	max-width:450px;
+	margin:0 auto;
+	min-height: 100%;
+    /* margin:0px 25px 50px 25px; */
+}
+
+/* login */
+section.loginSection {
+	padding : 0 25px 160px 25px;
+}
+.logoImg {
+	background:url("../image/logo.png") no-repeat center / 100%;
+    width:147px;
+    height:102px;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+section.loginSection .logoImg {
+	display:block;
+	margin: 0 auto;
+	padding : 120px 0;
+}
+/* .idInputCase {
+    display : block;;
+} */
+
+
+.container .tbox { 
+    background: #FFF8F9;
+    box-shadow: 0 2px 4px 0 #EED4D8;
+    border-radius: 10px;
+    font-family: 'noto sans';
+    font-weight: 300;
+    border:none;
+    width:100%;
+    height:50px;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding : 0 20px;
+}
+
+.container .tbox.full {
+	width : calc(100% - 40px);
+}
+
+
+
+.contents {
+	width : 100%;
+	display : block;
+}
+
+
+.btnBox.login {
+	width:100%;
+	position:fixed;
+	bottom:0;
+    left:0;
+}
+
+.btnBox.login a {
+    background: #2E4393;
+    border-radius: 0 24px 0 0;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    width:100%;
+    height:54px;
+	cursor: pointer;
+	display : block;
+	line-height : 54px;
+}
+
+
+.checkCase input[type="checkbox"] {
+	background:url("../image/check01_off.png")left/22px no-repeat;
+	cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    vertical-align: middle;
+}
+.checkCase input[type="checkbox"]:checked {
+	background:url("../image/check01_on.png")left/22px no-repeat;
+	cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.chk_text {
+	display : inline-block;
+	vertical-align : middle;
+	color:#2E4393;
+    font-size:14px;
+}
+
+/* main */
+section.topMenuSection {
+	width:100%;
+    height:50px;
+    background:#2E4393;
+    line-height:50px;
+	position : relative;
+	text-align : center;
+}
+
+section.topMenuSection .prevBtn {
+	position : absolute;
+	top : 0;
+	left : 5px;
+	display : block;
+	height : 50px;
+	width : 50px;
+}
+section.topMenuSection .titleText {
+	font-family: 'montserrat';
+    font-size:17px;
+    color:#fff;
+	font-weight : 800;
+}
+
+.top_menu span {
+    font-family: 'montserrat';
+    font-size:14px;
+    color:#fff;
+    float:right;
+    margin-right:25px;
+}
+
+.all_box {
+    padding-top:11px;
+    margin: auto;
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #EED4D8;
+    border-radius: 23px;
+    width:148px;
+    height:130px;
+    float:left;
+    margin-left:25px;
+    margin-top:14px;
+    text-align: center;
+}
+
+.box ul li:first-child {
+    font-weight:bold;
+    margin-top:25px;
+    font-size:14px;
+}
+
+.box ul li:last-child {
+    font-size:36px;
+    font-family: 'montserrat';
+    color:#2E4393;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.last_time {
+    clear:both;
+    position: fixed;
+    bottom:25px;
+    left:50px;
+    font-weight: bold;
+}
+
+.last_time span {
+    font-family: 'montserrat';
+}
+
+
+/* menu_pop */
+.pop {
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.50);
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.modal {
+    width:295px;
+    height:100%;
+    background: #2E4393;
+    border-radius: 0 60px 0 0;
+    color:#fff;
+    padding-left:25px;
+}
+
+.close {
+    float:right;
+    margin-right:30px;
+    margin-top:30px;
+}
+
+.menu {
+    clear:both;
+    font-size:24px;
+    font-weight:bold;
+    padding-top:30px;
+}
+
+.menu li {
+    margin-bottom:25px;
+}
+
+.last_com {
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 300;
+}
+
+.last_com span {
+    font-family: 'montserrat';
+}
+
+.time {
+    font-family: 'montserrat';
+    position:fixed;
+    bottom:25px;
+    left:25px;
+    font-weight: 600;
+}
+
+/* setting */
+
+/* :: 세팅 페이지 파트 open  */
+section.tabSection {
+	/* border-bottom:1px solid #EDD6DB; */
+	width:100%;
+	line-height: 58px;
+}
+
+section.tabSection .layerGroup {
+	border-bottom:1px solid #EDD6DB;
+	height : 58px;
+	font-size : 0;
+}
+section.tabSection .layerGroup.groupSort1 {
+	padding : 0 25px;
+}
+section.tabSection .layerGroup a {
+	font-size : 16px;
+	width : 50%;
+	display : inline-block;
+	text-align : center;
+	position : relative;
+	color :#2E4393;
+	font-weight : 800;
+}
+section.tabSection .layerGroup.groupSort1 a.activated:before {
+	content : "";
+	position : absolute;
+	left : 0;
+	bottom : 0;
+	border-bottom : 4px solid #2E4393;
+	width : 100%;
+}
+section.tabSection .layerGroup.groupSort2 {
+	margin-top : 4.5px;
+}
+section.tabSection .layerGroup.groupSort2 a.activated {
+	background-color: #2e4393;
+	color : #fff;
+	border-radius : 0 20px 0 0;
+}
+
+section.listSection.recordSect {
+	margin : 25px 0 50px;
+	padding : 0 25px;
+}
+
+.listGroup li {
+	background-color : #fff;
+	padding : 20px;
+	display : block;
+	border-radius : 18px;
+	box-shadow : 0 2px 4px 0 #EED4D8;
+	margin-bottom : 10px;
+}
+
+.listGroup li.listEmptyNotice {
+	background-color : transparent;
+	font-size : 16px;
+	font-weight : 800;
+	box-shadow : none;
+	text-align : center;
+	margin-top : 80px;
+}
+.listGroup li {
+	font-size : 14px;
+}
+.listGroup li div.recordInfo {
+	margin-top : 15px;
+}
+
+
+
+
+
+/* .top span {
+    position:absolute;
+    left:50%;
+    font-size:17px;
+    font-weight:bold;
+}
+
+.text_box {
+    margin-top:20px;
+}
+
+.text_box p {
+    font-size:14px;
+}
+
+.text_box input {
+    margin-top:10px;
+    color:99A5D2;
+    font-size:14px;
+}
+
+.content2 {
+    margin:25px;
+}
+
+.list {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #EED4D8;
+    border-radius: 18px;
+    height:88px;
+    margin-bottom:10px;
+}
+
+.list p {
+    padding:20px 0 0 20px;
+}
+
+.list p:first-child {
+    font-family: 'montserrat';
+} */
+
+
+
+/* :: 세팅 페이지 파트 close  */
+
+
+
