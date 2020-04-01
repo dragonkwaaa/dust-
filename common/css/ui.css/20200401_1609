@@ -1,0 +1,5 @@
+.prevBtn {
+	width : 12px;
+	height : 21px;
+	background : url(/dust/common/image/back.png) no-repeat center / 12px 21px;
+}
