@@ -1,0 +1,283 @@
+html, body{
+	overflow:auto;
+	background-color : #F0E4E6;
+}
+
+.container{
+	max-width:450px;
+	margin:0 auto;
+	min-height: 100%;
+    margin:0px 40px 50px 40px;
+}
+
+/* login */
+header {
+    height:50px;
+    margin-bottom:40px;
+}
+
+header a {
+    background:url("../image/logo.png") no-repeat center / 100%;
+    width:147px;
+    height:102px;
+    display:block;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    margin:120 auto;
+}
+
+.id {
+    margin-top:112px;
+}
+
+
+.container .tbox { 
+    background: #FFF8F9;
+    box-shadow: 0 2px 4px 0 #EED4D8;
+    border-radius: 10px;
+    font-family: 'noto sans';
+    font-weight: 300;
+    border:none;
+    width:100%;
+    height:50px;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left:20px;
+}
+
+.btnBox button {
+    background: #2E4393;
+    box-shadow: 0 2px 4px 0 #EED4D8;
+    border-radius: 0 24px 0 0;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    width:100%;
+    height:54px;
+    cursor: pointer;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+.ccheck input[type="checkbox"] {
+	display:none;
+}
+
+.ccheck label{
+	width:22px;
+	height:22px;
+}
+
+.ccheck input[type="checkbox"] + label .chk_img {
+	padding:11px 0 0 30px;
+	height:22px;
+	background:url("../image/check01_off.png")left/22px no-repeat;
+	cursor:pointer;
+    color:#2E4393;
+    font-size:14px;
+}
+.ccheck input[type="checkbox"]:checked + label .chk_img {
+	background:url("../image/check01_on.png")left/22px no-repeat;
+}
+
+/* main */
+.top_menu {
+    width:100%;
+    height:50px;
+    background:#2E4393;
+    line-height:50px;
+    padding-left:25px;
+}
+
+.top_menu a img {
+    margin-top:16px;
+}
+
+.top_menu span {
+    font-family: 'montserrat';
+    font-size:14px;
+    color:#fff;
+    float:right;
+    margin-right:25px;
+}
+
+.all_box {
+    padding-top:11px;
+    margin: auto;
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #EED4D8;
+    border-radius: 23px;
+    width:148px;
+    height:130px;
+    float:left;
+    margin-left:25px;
+    margin-top:14px;
+    text-align: center;
+}
+
+.box ul li:first-child {
+    font-weight:bold;
+    margin-top:25px;
+    font-size:14px;
+}
+
+.box ul li:last-child {
+    font-size:36px;
+    font-family: 'montserrat';
+    color:#2E4393;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.last_time {
+    clear:both;
+    position: fixed;
+    bottom:25px;
+    left:50px;
+    font-weight: bold;
+}
+
+.last_time span {
+    font-family: 'montserrat';
+}
+
+
+/* menu_pop */
+.pop {
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.50);
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.modal {
+    width:295px;
+    height:100%;
+    background: #2E4393;
+    border-radius: 0 60px 0 0;
+    color:#fff;
+    padding-left:25px;
+}
+
+.close {
+    float:right;
+    margin-right:30px;
+    margin-top:30px;
+}
+
+.menu {
+    clear:both;
+    font-size:24px;
+    font-weight:bold;
+    padding-top:30px;
+}
+
+.menu li {
+    margin-bottom:25px;
+}
+
+.last_com {
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 300;
+}
+
+.last_com span {
+    font-family: 'montserrat';
+}
+
+.time {
+    font-family: 'montserrat';
+    position:fixed;
+    bottom:25px;
+    left:25px;
+    font-weight: 600;
+}
+
+/* setting */
+.tab_menu, .tab_menu2 {
+    border-bottom:1px solid #EDD6DB;
+    height:58px;
+    width:100%;
+    line-height: 58px;
+}
+
+.tab_menu input, .tab_menu2 input {
+    display:none;
+    width:50%;
+}
+
+.tab_menu label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    font-weight:bold;
+    text-align: center;
+    color:#2E4393;
+    width:49%;
+    border:1px soild transparent;
+}
+
+.tab_menu input:checked + lable {
+    border-bottom:4px solid #2E4393;
+}
+
+.tab_menu2 label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    font-weight:bold;
+    text-align: center;
+    color:#2E4393;
+    width:49%;
+    border:1px soild transparent;
+}
+
+
+.top span {
+    position:absolute;
+    left:50%;
+    font-size:17px;
+    font-weight:bold;
+}
+
+.text_box {
+    margin-top:20px;
+}
+
+.text_box p {
+    font-size:14px;
+}
+
+.text_box input {
+    margin-top:10px;
+    color:99A5D2;
+    font-size:14px;
+}
+
+.content2 {
+    margin:25px;
+}
+
+.list {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #EED4D8;
+    border-radius: 18px;
+    height:88px;
+    margin-bottom:10px;
+}
+
+.list p {
+    padding:20px 0 0 20px;
+}
+
+.list p:first-child {
+    font-family: 'montserrat';
+}
